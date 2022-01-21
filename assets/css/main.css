@@ -800,6 +800,26 @@ a:active {
 	letter-spacing: 2px;
 	
 }
+@media only screen and (max-width: 768px) {
+	.social-box{
+		min-height: 200px;
+	}
+
+	.social-title{
+		padding-top: 25px;
+	}
+
+	.half-image {
+		height: 200px;
+		padding: 0px;
+	}
+	
+	.half-image-textcontainer {
+		margin-top: 75px;
+		padding-left: 20%;
+		padding-right: 10px;
+	}
+}
 
 
 /*======================================================================
@@ -1164,12 +1184,13 @@ a:active {
 		background-image: url(../images/props.png);
 		background-repeat: no-repeat;
 		background-position: center right 60px;
+		
 	}
 
 .shops-container{
 	width: 32%;
 	height: 60px;
-	float: left;
+	display: inline-block;
 	padding-right:8px;
 	margin-bottom: 60px;
 	margin-top: 10px;
