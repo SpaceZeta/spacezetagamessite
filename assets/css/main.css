@@ -245,6 +245,16 @@ a:active {
 	margin-left: 15%;
 }
 
+@media only screen and (max-width: 650px) {
+	.bigheadercontainer{
+		width: 100%;
+		margin: auto;
+	}
+
+	.header-title {
+		font-size: 36px;
+	}
+}
 
 /*======================================================================
 ##		Footer widget Section
