@@ -408,6 +408,80 @@ a:active {
 }
 
 
+/*======================================================================
+##		Stores Section
+=======================================================================*/
+.stores .section-bg{
+	background-color: #262626;
+	padding: 0px 200px 10px 200px;
+}
+@media (max-width: 999px){
+	.stores .section-bg{
+		padding: 0px 10px 70px 10px;
+	}
+}
+
+.stores p{
+	color: #fff;
+}
+.stores img{
+	padding: 0px 0 0;
+}
+
+.stores .title{
+	color: #cf1c42;
+	margin-top: -20px;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+.stores .title-box {
+	margin-bottom: -50px;
+}
+
+.gamestores-container{
+	text-align: center;
+	position: relative;
+}
+
+.gamestores {
+	text-align: center;
+	color: #d0d0d0;
+	transition: 0.4s;
+	display: inline-block;
+	padding: 0px 30px;
+	margin-top: 30px;
+}
+.gamestores img {
+	max-height: 100px;
+}
+.gamestores:hover {
+	opacity: 0.6;
+	transition: 0.2s;
+}
+.gamestores p {
+	font-size: 16px;
+	text-align: center;
+	font-family: Oswald;
+	padding-top: 15px;
+	line-height: 50%;
+	text-transform: uppercase;
+}
+
+@media (max-width: 999px){
+	.gamestores{
+		padding: 0px 30px;
+	}
+	.gamestores img{
+		max-height: 100px;
+	}
+	.gamestores-container{
+		padding-top: 50px;
+		margin-bottom: -10px;
+	}
+}
+
+
 
 
 /*======================================================================
