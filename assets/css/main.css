@@ -545,6 +545,46 @@ a:active {
 	color: #1a1a1a;
 	letter-spacing: 1px;
 }
+.press-container{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: -50px;
+}
+
+.press-outerbox{
+	width: 32%;
+	height: 60px;
+	display: inline-block;
+	margin: auto;
+	margin-bottom: 60px;
+	margin-top: 10px;
+	padding: 2px;
+}
+.press-box{
+	position: relative;
+	background-color: #cf1c42;
+	min-height:50px;
+	width:100%;
+    color: #fff;
+	line-height: 15px;
+	text-align: center;
+	padding:10px;
+	transition: 0.2s;
+	display: table;
+	
+}
+.press-box:hover{
+	background-color: #0a0708;
+
+}
+.press-text{
+	display: table-cell;
+	vertical-align: middle;
+	font-family: Oswald;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
 
 /*======================================================================
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
