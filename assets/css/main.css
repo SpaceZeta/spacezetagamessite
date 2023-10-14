@@ -133,7 +133,6 @@ a:active {
   	margin-left: auto;
   	margin-right: auto;
 	text-align: center;
-	
 }
 
 .logo-header img {
@@ -253,6 +252,68 @@ a:active {
 
 	.header-title {
 		font-size: 36px;
+	}
+}
+
+/*======================================================================
+##		Language selection Section
+=======================================================================*/
+
+.lang-bg{
+	border: 1px solid;
+	border-color: #262626;
+    background-color: #111;
+	width:110px;
+	height: 70px;
+	float: right;
+	margin-top: -75px;
+	word-spacing: 15px;
+}
+
+.lang-container
+{
+	font-family: Oswald;
+	font-size: 12px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-align: right;
+	padding: 9px 22px 10px 20px;
+	color: #cf1c42;
+	line-height: 24px;
+}
+
+.lang-container a
+{
+	color: #7c7c7c;
+	transition: 0.2s;
+}
+
+.lang-container a:hover
+{
+	color: #c4c4c4;
+	transition: 0.2s;
+}
+
+@media only screen and (max-width: 650px) {
+	.lang-bg{
+		border: 1px solid;
+		border-color: #262626;
+		background-color: #111;
+		width:210px;
+		height: 25px;
+		margin-top: 15px;
+		margin-bottom: -20px;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		position:relative;
+	}
+
+	.lang-container
+	{
+		text-align: center;
+		padding: 0;
+		padding-top: px;
 	}
 }
 
