@@ -191,7 +191,7 @@ a:active {
 }
 .intro{
 	padding: 200px 0;
-    background-image: url(../images/headerfloodlight.png);
+    background-image: url(../images/headerwatcheye.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -242,7 +242,7 @@ a:active {
 	padding-right:15px;
 	padding-left:15px;
 	float:left;
-	width:200px;
+	width:350px;
 	margin-left: 15%;
 }
 
@@ -740,6 +740,25 @@ a:active {
 }
 
 
+/*======================================================================
+##		Watch Eye
+=======================================================================*/
+
+.bigimgwatcheye {
+	width:100%;
+    background-image: url(../images/headerwatcheye.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	background-color: rgb(22, 22, 22);
+	padding: 300px 0;
+}
+
+.bigimgwatcheye img {
+	max-width: 100%;
+}
+
+
 /* ------------------------------------------------------------------------------*/
 .thumb {
     max-height: 171px;
@@ -884,6 +903,9 @@ a:active {
 }
 .floodlight-header .intro{
 	background-image: url(../images/floodlightheader.png);
+}
+.watcheye-header .intro{
+	background-image: url(../images/watcheyeheader.png);
 }
 .faq-header .intro{
 	background-image: url(../images/faq-header.jpg);
